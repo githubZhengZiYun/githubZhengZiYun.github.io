@@ -74,7 +74,7 @@ header>figure:hover{
 .personal_msg>ul>li{
 	width:320px;
 	line-height:58px;
-	font-size:24px;
+	font-size:22px;
 	color:#fff;
 	overflow:hidden;
 	float:left;
@@ -199,7 +199,7 @@ header>figure:hover{
 }
 .project_one>h2{
 	font-size:16px;
-	line-height:40px;
+	line-height:18px;
 	color:#fff;
 }
 .project_one>h2>a{
@@ -210,35 +210,34 @@ header>figure:hover{
 	color:#fff;
 }
 footer{
-	width:1000px;
-	height:300px;
-	padding-left:234px;
-	background:#171d33;
-	letter-spacing:2px;
-	position:relative;
+	width: 1000px;
+    height: 200px;
+    padding-left: 150px;
+    background: #171d33;
+    letter-spacing: 1px;
+    position: relative;
 }
 footer>p:nth-child(1){
-	color:#fff;
-	font-size:34px;
-	line-height:40px;
-	padding-top:70px;
+	color: #fff;
+    font-size: 28px;
+    line-height: 40px;
+    padding-top: 36px;
 }
 footer>p:nth-child(2){
-	color:#fff;
-	font-size:24px;
-	line-height:40px;
-	margin-top:30px;
+	color: #fff;
+    font-size: 20px;
+    line-height: 40px;
 }
 footer>p:nth-child(3){
-	color:#fff;
-	font-size:24px;
-	line-height:40px;
+	color: #fff;
+    font-size: 20px;
+    line-height: 40px;
 }
 .erweima{
 	width:120px;
 	height:120px;
 	position:absolute;
-	right: 120px;
-	top:84px;
+	right: 150px;
+	top:46px;
 }
 
