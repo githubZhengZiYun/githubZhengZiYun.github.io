@@ -8,12 +8,14 @@
 	<script>
 	if (navigator.geolocation) {
 		navigator.geolocation.getCurrentPosition(function(posi){
-			alert();
-			// alert(posi.coords.latitude);
-			// alert(posi.coords.longitude);
+			// alert();
+			alert(posi.coords.latitude);
+			alert(posi.coords.longitude);
 		}, function(err){
 			console.log(err);
-		}, null);
+		}, {
+			enableHightAccuracy: false
+		});
 	}else{
 		alert("您的设备不支持定位！");
 	};
